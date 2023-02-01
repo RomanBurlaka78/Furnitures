@@ -1,0 +1,37 @@
+.hero {
+    background-color: #3B5D50;
+}
+.hero__inner {
+    padding-top: 15.7rem;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.hero__content {
+    flex: 0 1 419px;
+}
+.hero__title {
+    font-family: $ff-primary;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 65px;
+    color: #FFFFFF;
+    margin-bottom: 11.7rem;
+    @media(max-width: 480px) {
+        font-size: 4.4rem;
+    }
+
+}
+.btn__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+}
+
+.hero__image {
+}
+.hero__img {
+    width: 100%;
+    max-width: 100%;
+}
