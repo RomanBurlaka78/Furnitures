@@ -31,3 +31,31 @@
     }
 
 }
+.btn__dark {
+    background: #2F2F2F;
+    color: #fff;
+    &:hover {
+        background: darken($color: #2F2F2F, $amount: 20%);
+     }
+}
+.btn__design {
+    margin-top: 3.8rem;
+}
+
+.text {
+    font-family: $ff-primary;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #6A6A6A;
+    
+}
+.title {
+    font-family: $ff-primary;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #2F2F2F;
+}

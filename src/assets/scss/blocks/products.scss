@@ -1,0 +1,55 @@
+.products {
+    margin-top: 17.4rem;
+    margin-bottom: 5rem;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 4.9rem;
+        @media(max-width: 992px) {
+            flex-wrap: wrap;
+        }
+    }
+    &__card {
+        flex: 0 1 350px;
+        display: flex;
+        gap: 3.3rem;
+        @media(max-width:99.2rem) {
+            flex: 0 1 100%;
+            padding: 0 20px;
+            justify-content: center;
+        }
+       
+    }
+    &__body {
+        height: auto;
+        position: relative;
+    }
+    &__body-title {
+        font-family: $ff-primary;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+        margin-bottom: 1.1rem;
+    }
+    &__body-text {
+        // margin-bottom: 1.1rem;
+    }
+    &__body-subtext {
+        position: absolute;
+        bottom: -20px;
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover {
+            text-decoration: none;
+            color: red;
+        }
+    }
+
+}
+
+
+

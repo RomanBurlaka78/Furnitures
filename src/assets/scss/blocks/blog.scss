@@ -1,0 +1,75 @@
+.blog {
+    margin-top: 10rem;
+   &__inner {
+
+    }
+    &__header {
+        margin-bottom: 3.6rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__header-title {
+        width: 20rem;
+    }
+    &__header-link {
+        font-family: $ff-primary;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 41px;
+
+        color: #2F2F2F;
+    }
+    &__card-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2rem;
+        gap: 1.8rem;
+        @media(max-width: 55rem) {
+           flex-wrap: wrap;
+           gap: 5rem;
+        }
+    }
+    &__card {
+        flex: 0 1 38.2rem;
+        height: auto;
+        min-height: 10rem;
+        @media(max-width: 99.2rem) {
+            flex: 0 1 50%;
+            margin: 0 auto;
+        }
+    }
+    &__card-img {
+        border-radius: 10px;
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        @media(max-width: 99.2rem) {
+            width: 100%;
+            width: 100%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+    }
+    &__card-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #2F2F2F;
+        margin-top: 4.4rem;
+
+    }
+    &__card-subtext {
+        font-family: $ff-primary;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #2F2F2F;
+        margin-top: .5rem;
+
+    }
+
+}
+

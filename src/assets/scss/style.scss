@@ -4,6 +4,13 @@
 @import "globals/header";
 @import "globals/footer";
 @import "blocks/hero";
+@import "blocks/crafted";
+@import "blocks/choose";
+@import "blocks/design";
+@import "blocks/products";
+@import "blocks/swiper";
+@import "blocks/blog";
+
 
 
 html {
@@ -11,8 +18,9 @@ html {
     font-size: 62.5%;
     //equivalent 10px//  
     font-family: $ff-primary;
-    
+       
 }
+
 
 body{
     height: 100%;
@@ -20,6 +28,7 @@ body{
     font-family: 'Gotham','Gotham Black','Gotham Light', 'Gotham Thin', 'Gotham XLight', 'Gotham Book', 'Gotham Ultra',    sans-serif;
     //normalize css
     @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+    background: #EFF2F1;
   
   &.lock {
     overflow: hidden;
